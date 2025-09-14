@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Connect to MongoDB Atlas (replace with your connection string)
-mongoose.connect("YOUR_MONGODB_ATLAS_URI", { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://dbuser:dbpass@cluster0.5dsgzq4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Home page: show all todos
 app.get("/", async (req, res) => {
