@@ -1,16 +1,17 @@
 {
-  "name": "backend",
+  "name": "vaibhav-todo-ejs",
   "version": "1.0.0",
+  "description": "A simple task management app built using Node.js, Express, EJS, and MongoDB",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
+  "author": "Vaibhav Bhoot",
+  "license": "ISC",
   "dependencies": {
-    "body-parser": "^2.2.0",
-    "ejs": "^3.1.10",
-    "express": "^5.1.0",
-    "mongoose": "^8.16.0",
-    "nodemon": "^3.1.10"
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.1"
   }
 }
